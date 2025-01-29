@@ -1,15 +1,11 @@
-# OnBoarding API (OBA)
+# OnBoarding Pipeline
 
 ## Use Case & Solution
 
 Your manager has just hired a new employee and you've been given the daunting task to onboard them!  
 Onboarding (as you know it) takes priceless moments of your life, and there are so many other important tasks that you could be busy with. However, you recognize its importance in integrating new employees into a company.
 
-The **OnBoarding API (OBA)** is an automated onboarding solution! It not only gives you back your freedom, but also gives new hires the permissions they need to officially become a part of the team!  
-
-Here at **GE**, **IAM** for various platforms and services can be tied to Distribution Lists (**DLs**) in **Identity Manager**. With the help of **HR-Us**, onboarding an employee to one of these DLs has never been easier.  
-
-As a bonus, OBA can also assist with employee DL audits and offboarding as well. Read the section below to see how it works!
+The **OnBoarding Pipeline** is an automated onboarding solution! It not only gives you back your freedom, but also gives new hires the permissions they need to officially become a part of the team!  As a bonus, OnBoarding Pipeline can also assist with employee RBAC audits and offboarding as well. Read the section below to see how it works!
 
 ---
 
@@ -25,7 +21,7 @@ It verifies the following:
 - If `action` field is present
 - If `scope` field is present
 
-If all goes well, the function will find and append the `employeeType` and `cn` of the user to the response.  
+If all goes well, the function will find and append the `employeeType` and `name` of the user to the response.  
 This data will be used in the proceeding steps.
 
 ### 2. Action Type? (Choice State)
