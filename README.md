@@ -1,5 +1,7 @@
 # OnBoarding Pipeline
 
+![Image](https://github.com/user-attachments/assets/d81e9a59-be23-4d6a-a213-7fa2032ea010)
+
 ## Use Case & Solution
 
 Your manager has just hired a new employee and you've been given the daunting task to onboard them!  
