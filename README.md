@@ -1,5 +1,5 @@
 
-# Employee RBAC Automation
+# RBAC Pipeline
 _Automated Role-Based Access Control (RBAC) for employee onboarding, auditing, and offboarding._
 
 ## Overview
